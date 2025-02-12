@@ -27,6 +27,7 @@ To achieve this, I wrote SQL queries to extract and analyze the relevant data.
 - ProductDescription: a longer description of each product for a specific region
 - ProductCategory: the broad categories that products fit into
 - ProductSubCategory: the narrower subcategories that products fit into
+
 **Sales Table:**
 - SalesPerson: one row per salesperson, including information on their commission and performance
 - SalesOrderHeader: one row per sale summarizing the sale
