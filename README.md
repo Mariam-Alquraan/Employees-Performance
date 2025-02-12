@@ -21,16 +21,16 @@ To achieve this, I wrote SQL queries to extract and analyze the relevant data.
 
 ## **Dataset Information**
 **Product Table:**
-Product: one row per product that the company sells
-ProductReview: one row per rating and review left by customers
-ProductModelProductDescriptionCulture: a link between products and their longer descriptions also indicating a “culture” - which language and region the product is for
-ProductDescription: a longer description of each product for a specific region
-ProductCategory: the broad categories that products fit into
-ProductSubCategory: the narrower subcategories that products fit into
+- Product: one row per product that the company sells
+- ProductReview: one row per rating and review left by customers
+- ProductModelProductDescriptionCulture: a link between products and their longer descriptions also indicating a “culture” - which language and region the product is for
+- ProductDescription: a longer description of each product for a specific region
+- ProductCategory: the broad categories that products fit into
+- ProductSubCategory: the narrower subcategories that products fit into
 **Sales Table:**
-SalesPerson: one row per salesperson, including information on their commission and performance
-SalesOrderHeader: one row per sale summarizing the sale
-SalesOrderDetail: many rows per sale, detailing each product that forms part of the sale
-SalesTerritory: the different territories where products are sold, including performance
-CountryRegionCurrency: the currency used by each region
-CurrencyRate: the average and closing exchange rates for each currency compared to the USD
+- SalesPerson: one row per salesperson, including information on their commission and performance
+- SalesOrderHeader: one row per sale summarizing the sale
+- SalesOrderDetail: many rows per sale, detailing each product that forms part of the sale
+- SalesTerritory: the different territories where products are sold, including performance
+- CountryRegionCurrency: the currency used by each region
+- CurrencyRate: the average and closing exchange rates for each currency compared to the USD
