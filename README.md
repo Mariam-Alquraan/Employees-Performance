@@ -9,7 +9,7 @@ This project focuses on analyzing the best-performing salespeople and products f
 
 ### **Business Context**
 AdventureWorks operates in multiple locations and sells a variety of outdoor sporting equipment. The company has been recording sales data across different locations and products. As the new data scientist, my task is to identify the best-performing products and salespeople and provide actionable insights to boost sales.
-Using adventureworks.db Dataset.
+Using AdventureWorks.db Dataset.
 
 ### **Business Problem**
 The primary objectives are:
@@ -37,4 +37,4 @@ To achieve this, I wrote SQL queries to extract and analyze the relevant data.
 - CountryRegionCurrency: the currency used by each region
 - CurrencyRate: the average and closing exchange rates for each currency compared to the USD
 
-## You can see the queries in the Jupyter Notebook
+## You can see the queries in the Jupyter Notebook sql_Answers.ipynb
