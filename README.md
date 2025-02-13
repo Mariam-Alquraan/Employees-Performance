@@ -37,4 +37,4 @@ To achieve this, I wrote SQL queries to extract and analyze the relevant data.
 - CountryRegionCurrency: the currency used by each region
 - CurrencyRate: the average and closing exchange rates for each currency compared to the USD
 
-## You can see the queries in the Jupyter Notebook sql_Answers.ipynb
+## You can see the queries in the Jupyter Notebook sql_project.ipynb
